@@ -24,7 +24,7 @@ public class Level : MonoBehaviour
     public void BlockDestroyed()
     {
         breakableBlocks--;
-        if(breakableBlocks <= 0)
+        if (breakableBlocks <= 0)
         {
             sceneloader.LoadNextScene();
         }
